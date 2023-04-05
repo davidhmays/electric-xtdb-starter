@@ -69,7 +69,7 @@
               db (new (db/latest-db> user/!xtdb))]
       (e/client
         (dom/link (dom/props {:rel :stylesheet :href "/todo-list.css"}))
-        (dom/h1 (dom/text "minimal todo list"))
+        (dom/h1 (dom/text "minimal todo list XTDB"))
         (dom/p (dom/text "it's multiplayer, try two tabs"))
         (dom/div (dom/props {:class "todo-list"})
           (TodoCreate.)
